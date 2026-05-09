@@ -1,87 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Educational Website</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Learning Platform</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>My Learning Platform</h1>
-        <p>Learn Data Analytics, Power BI & AI</p>
-    </header>
+  <!-- HEADER -->
+  <header class="navbar">
+
+    <div class="logo-section">
+      <div class="logo-icon">🎓</div>
+
+      <div>
+        <h2>My Learning Platform</h2>
+        <p>Learn. Analyze. Grow.</p>
+      </div>
+    </div>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#courses">Courses</a>
-        <a href="#dashboard">Dashboards</a>
-        <a href="#contact">Contact</a>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Dashboard</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
     </nav>
 
-    <section id="home" class="hero">
-        <h2>Welcome to My Educational Platform</h2>
+    <!-- YOUR PHOTO -->
+    <div class="profile">
+      <img src="myphoto.jpg" alt="Profile Photo">
+    </div>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="hero-left">
+
+      <h4>Welcome to My Educational Platform</h4>
+
+      <h1>
+        Learn Data Analytics,<br>
+        <span>Power BI & AI</span>
+      </h1>
+
+      <p>
+        Explore courses, build real-world dashboards,
+        and advance your career with in-demand skills.
+      </p>
+
+      <button>Explore Courses</button>
+
+    </div>
+
+    <div class="hero-right">
+      <img src="dashboard.png" alt="Dashboard">
+    </div>
+
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses">
+
+    <h2>My Courses</h2>
+
+    <div class="course-container">
+
+      <!-- CARD 1 -->
+      <div class="course-card">
+
+        <img src="https://img.icons8.com/color/96/power-bi.png">
+
+        <h3>Power BI Complete Course</h3>
+
         <p>
-            Learn Power BI, Data Analytics, AI and Dashboard Development.
+          Learn Power BI from basics to advanced.
+          Build interactive dashboards and reports.
         </p>
-    </section>
 
-    <section id="courses">
-        <h2>My Courses</h2>
+        <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
+          <button>Open Dashboard</button>
+        </a>
 
-        <div class="course-container">
+      </div>
 
-            <div class="course-card">
-                <h3>Power BI Complete Course</h3>
-                <p>Learn dashboards, DAX, Power Query and visualization.</p>
+      <!-- CARD 2 -->
+      <div class="course-card">
 
-                <a href="https://youtube.com">
-                    <button>Open Dashboard</button>
-                </a>
-            </div>
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png">
 
-            <div class="course-card">
-                <h3>AI & Data Analytics</h3>
-                <p>Learn AI integration with dashboards and reporting.</p>
+        <h3>AI & Data Analytics</h3>
 
-                <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
-                    <button>Open Dashboard</button>
-                </a>
-            </div>
+        <p>
+          Learn AI concepts and how to integrate AI
+          with dashboards and analytics.
+        </p>
 
-            <div class="course-card">
-                <h3>Python for Analytics</h3>
-                <p>Learn Python for automation and business intelligence.</p>
+        <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
+          <button>Open Dashboard</button>
+        </a>
 
-                <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
-                    <button>Open Dashboard</button>
-                </a>
-            </div>
+      </div>
 
-        </div>
-    </section>
+      <!-- CARD 3 -->
+      <div class="course-card">
 
-    <section id="dashboard">
-        <h2>Interactive Dashboards</h2>
+        <img src="https://img.icons8.com/color/96/python.png">
 
-        <div class="dashboard-box">
-            <p>Click below to open live dashboard</p>
+        <h3>Python for Analytics</h3>
 
-            <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
-                <button class="dashboard-btn">Launch Dashboard</button>
-            </a>
-        </div>
-    </section>
+        <p>
+          Learn Python programming for data analysis,
+          automation and visualization.
+        </p>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourname@email.com</p>
-    </section>
+        <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
+          <button>Open Dashboard</button>
+        </a>
 
-    <footer>
-        <p>© 2026 My Educational Website</p>
-    </footer>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DASHBOARD SECTION -->
+  <section class="dashboard-section">
+
+    <div class="dashboard-box">
+
+      <div>
+        <h3>Interactive Dashboards</h3>
+
+        <p>
+          Click the button to explore my live interactive dashboards.
+        </p>
+      </div>
+
+      <a href="https://YOUR-DASHBOARD-LINK.com" target="_blank">
+        <button class="launch-btn">Launch Dashboard</button>
+      </a>
+
+    </div>
+
+  </section>
 
 </body>
 </html>
